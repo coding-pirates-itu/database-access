@@ -1,0 +1,138 @@
+﻿[
+    {
+        "Title": "Tenet",
+        "ReleaseDate": "2020-08-26",
+        "Slogan": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt6723592",
+        "Certification": {
+            "Name": "12A",
+            "Description": "12 or accompanied",
+            "MinimumAge": 12,
+            "SupervisedAge": 8
+        },
+        "Studio": {
+            "Name": "Warner Bros",
+            "Country": "USA"
+        },
+        "Genres": [ "Action", "Sci-Fi", "Thriller" ]
+    },
+    {
+        "Title": "Inception",
+        "ReleaseDate": "2010-07-16",
+        "Slogan": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt1375666",
+        "Certification": {
+            "Name": "12A",
+            "Description": "12 or accompanied",
+            "MinimumAge": 12,
+            "SupervisedAge": 8
+        },
+        "Studio": {
+            "Name": "Warner Bros",
+            "Country": "USA"
+        },
+        "Genres": [ "Action", "Adventure", "Sci-Fi" ]
+    },
+    {
+        "Title": "Spirited Away",
+        "ReleaseDate": "2003-09-12",
+        "Slogan": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0245429",
+        "Certification": {
+            "Name": "PG",
+            "Description": "Parental guidance",
+            "MinimumAge": 8,
+            "SupervisedAge": 4
+        },
+        "Studio": {
+            "Name": "Studio Ghibli",
+            "Country": "Japan"
+        },
+        "Genres": [ "Animation", "Adventure", "Family" ]
+    },
+    {
+        "Title": "The Lion King",
+        "ReleaseDate": "1994-10-07",
+        "Slogan": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0110357",
+        "Certification": {
+            "Name": "U",
+            "Description": "Universal",
+            "MinimumAge": 4,
+            "SupervisedAge": 0
+        },
+        "Studio": {
+            "Name": "Walt Disney",
+            "Country": "USA"
+        },
+        "Genres": [ "Animation", "Adventure", "Drama" ]
+    },
+    {
+        "Title": "Armour of God",
+        "ReleaseDate": "1987-04-03",
+        "Slogan": "Asian Hawk (Jackie Chan) and his bumbling sidekick are sent on a quest through Europe to find a mysterious treasure held by a shadowy organization of monks.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0091431",
+        "Certification": {
+            "Name": "15",
+            "Description": "15 or over",
+            "MinimumAge": 15,
+            "SupervisedAge": 15
+        },
+        "Studio": {
+            "Name": "Golden Harvest Company",
+            "Country": "Hong Kong"
+        },
+        "Genres": [ "Action", "Adventure", "Comedy" ]
+    },
+    {
+        "Title": "Back to the Future",
+        "ReleaseDate": "1985-12-04",
+        "Slogan": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0088763",
+        "Certification": {
+            "Name": "PG",
+            "Description": "Parental guidance",
+            "MinimumAge": 8,
+            "SupervisedAge": 4
+        },
+        "Studio": {
+            "Name": "Universal Pictures",
+            "Country": "USA"
+        },
+        "Genres": [ "Adventure", "Comedy", "Sci-Fi" ]
+    },
+    {
+        "Title": "Life of Brian",
+        "ReleaseDate": "1979-11-08",
+        "Slogan": "Born on the original Christmas in the stable next door to Jesus Christ, Brian of Nazareth spends his life being mistaken for a messiah.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0079470",
+        "Certification": {
+            "Name": "AA",
+            "Description": "Adult Accompaniment",
+            "MinimumAge": 14,
+            "SupervisedAge": 14
+        },
+        "Studio": {
+            "Name": "Python (Monty) Pictures",
+            "Country": "UK"
+        },
+        "Genres": [ "Comedy" ]
+    },
+    {
+        "Title": "Modern Times",
+        "ReleaseDate": "1936-02-11",
+        "Slogan": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+        "Link": "https:\/\/www.imdb.com\/title\/tt0027977",
+        "Certification": {
+            "Name": "U",
+            "Description": "Universal",
+            "MinimumAge": 4,
+            "SupervisedAge": 0
+        },
+        "Studio": {
+            "Name": "Charles Chaplin Productions",
+            "Country": "USA"
+        },
+        "Genres": [ "Comedy", "Drama", "Family" ]
+    }
+]

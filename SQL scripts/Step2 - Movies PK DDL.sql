@@ -1,0 +1,10 @@
+CREATE TABLE Movies (
+	Id INT PRIMARY KEY,
+	Title VARCHAR(MAX) NOT NULL,
+	ReleaseDate DATE,
+	Slogan VARCHAR(MAX),
+	Link VARCHAR(MAX)
+);
+
+
+-- DROP TABLE Movies
