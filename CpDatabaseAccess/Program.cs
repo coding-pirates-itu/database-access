@@ -1,15 +1,19 @@
-﻿namespace CpDatabaseAccess
+﻿using System;
+
+namespace CpDatabaseAccess
 {
     class Program
     {
-        const string ConnetionString = @"Data Source=NITRO-MC;Database=Movies;Integrated Security=True";
+        const string ConnectionString = @"Data Source=NITRO-MC;Database=Movies;Integrated Security=True";
 
 
         static void Main(string[] args)
         {
-            OdbcDirect.PrintMovies(ConnetionString);
-            //OdbcEntities.PrintMoviesSorted(ConnetionString);
-            //EfCore.PrintMovies(ConnetionString);
+            //Console.WriteLine(Figgle.FiggleFonts.Fraktur.Render("Hello, EFCore!"));
+            //OdbcDirect.PrintMovies(ConnectionString);
+            //OdbcEntities.PrintMoviesSorted(ConnectionString);
+            EfCore.PrintMovies(ConnectionString);
+            Console.WriteLine("End");
         }
     }
 }

@@ -10,11 +10,14 @@ namespace CpDatabaseAccess
     {
         public static void PrintMoviesSorted(string connectionString)
         {
+            var search = "T%";
+
             using var conn = new SqlConnection(connectionString);
             conn.Open();
 
             using var cmd = conn.CreateCommand();
-            cmd.CommandText = "SELECT Title, ReleaseDate, Slogan, Link, StudioId, CertificationId FROM Movies";
+            cmd.CommandText = "SELECT Title, ReleaseDate, Slogan, Link, StudioId, CertificationId FROM Movies WHERE Title LIKE @search";
+            cmd.Parameters.Add(new SqlParameter("search", search));
 
             var list = new List<MovieEntity>();
             using var reader = cmd.ExecuteReader();

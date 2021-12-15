@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Linq;
 
 namespace CpDatabaseAccess
 {
@@ -11,12 +11,11 @@ namespace CpDatabaseAccess
     {
         public static void PrintMovies(string connectionString)
         {
-            using (var context = new MoviesDbContext(connectionString))
+            using var context = new MoviesDbContext(connectionString);
+
+            foreach (var movie in context.Movies.OrderBy(m => m.Title))
             {
-                foreach (var movie in context.Movies)
-                {
-                    Console.WriteLine($"{movie.ReleaseDate:dd-MM-yyyy}: {movie.Title}");
-                }
+                Console.WriteLine($"{movie.ReleaseDate:dd-MM-yyyy}: {movie.Title}");
             }
         }
     }
